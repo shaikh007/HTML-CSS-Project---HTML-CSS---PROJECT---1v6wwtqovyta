@@ -17,7 +17,7 @@ body {
 }
 
 .container {
-    background-color: rgb(222, 64, 64);
+    /* background-color: rgb(222, 64, 64); */
     border: 2px solid white;
     border-radius: 10px;
     padding: 0;
@@ -35,7 +35,7 @@ body {
     height: 70vh;
     border-top-left-radius: 7px;
     border-top-right-radius: 7px;
-    background-color: yellow;
+    /* background-color: yellow; */
     width: 100%;
 }
 
@@ -49,6 +49,7 @@ img {
     background-color: rgb(255, 252, 254);
     border-bottom-left-radius: 6px;
     border-bottom-right-radius: 8px;
+    border: 1px solid white;
     /* rgb(254, 254, 254) */
     /* padding-top: 9px; */
     padding-left: 12px;
@@ -61,6 +62,8 @@ img {
 
 #bottom .bar:hover {
     cursor: pointer;
+    color: rgb(76, 198, 157);
+    transition: 0.3s ease;
 }
 
 
